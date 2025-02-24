@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form Clone 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coustomdiv.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->  
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   
+    
+</head>
+<body>
+    
+    <div class="main">
+        <div class="top-layer">
+            <div id="navbar_bg">
+                <div id="nev_bar">
+                    <a href="#"><span class="material-symbols-outlined" id="new_form_icon">description</span></a>
+                    <p id="file_name">Untitled form</p> 
+                    <span class="material-symbols-outlined"  id="new_folder" >Folder</span>
+                    <span class="material-symbols-outlined" id="star">star</span>
+                    <span class="material-symbols-outlined" id="palette">palette</span>
+                    <span class="material-symbols-outlined" id="view">visibility</span>
+                    <span class="material-symbols-outlined" id="undo">Undo</span>
+                    <span class="material-symbols-outlined" id="redo">Redo</span>
+                    <button id="send_button">Send</button>
+                    <span class="material-symbols-outlined" id="more_vert">more_vert</span>         
+                </div>
+            </div>
+            <div id="fast_div_text">
+                <div class="nav">
+                    <div class="navDiv">Questions</div>
+                    <div class="navDiv">Response</div>
+                    <div class="navDiv">Settings</div>
+                </div>
+                <div class="underline">
+                </div>
+            </div>
+        </div>
+        <div class="subMain">
+                <div id="second_div">
+                <div id="second_div_2nd" >
+                    <div class="divs-container" id="clonedDivs">
+                        <div>
+                            <div id="second_div_topbar">
+                                <p id="second_div_topbar_text"></p>
+                            </div>
+                            <div id="formsOnly" class="new_div_1" >
+                            <div class="formsOnlySub">
+                                    <div>            
+                                        <div class="cooool3">
+                                            <input type="text" class="second_div_inputs" id="second_div_fast_input" value="Untitled form" >
+                                            <span class="border_animation"></span>
+                                        </div>
+                                        <div class="option">
+                                            <div class="tools_and_tips">                
+                                                <span class="material-symbols-outlined" id="format_bold">format_bold</span>
+                                                <span class="tool_tips1" id="tool_tips_format_bold">Bolt</span>
+                                            </div>
+                                            <div class="tools_and_tips">
+                                                <span class="material-symbols-outlined" id="format_italic">format_italic</span>
+                                                <span class="tool_tips1" id="tool_tips_format_italic">Italic</span>            
+                                            </div>        
+                                            <div class="tools_and_tips">     
+                                                <span class="material-symbols-outlined" id="format_underlined">format_underlined</span>
+                                                <span class="tool_tips1" id="tool_tips_format_underlined">Underline</span>      
+                                            </div>
+                                            <div class="tools_and_tips">            
+                                                <span class="material-symbols-outlined" id="link">link</span>
+                                                <span class="tool_tips1" id="tool_tips_link">Link</span>        
+                                            </div>
+                                                <div class="tools_and_tips">        
+                                                    <span class="material-symbols-outlined" id="format_clear">format_clear</span> 
+                                                    <span class="tool_tips1" id="tool_tips_format_clear">Clear</span>    
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="cooool3">
+                                            <input type="text"  class="second_div_inputs" id="second_div_second_input" placeholder="Form Descrription">
+                                            <span class="border_animation"></span>
+                                        </div>
+                                        <div class="option">
+                                            <div class="tools_and_tips">                
+                                                <span class="material-symbols-outlined" id="format_bold">format_bold</span>
+                                                <span class="tool_tips1" id="tool_tips_format_bold">Bolt</span>
+                                            </div>
+                                            <div class="tools_and_tips">
+                                                <span class="material-symbols-outlined" id="format_italic">format_italic</span>
+                                                <span class="tool_tips1" id="tool_tips_format_italic">Italic</span>            
+                                            </div>        
+                                            <div class="tools_and_tips">     
+                                                <span class="material-symbols-outlined" id="format_underlined">format_underlined</span>
+                                                <span class="tool_tips1" id="tool_tips_format_underlined">Underline</span>      
+                                            </div>
+                                            <div class="tools_and_tips">            
+                                                <span class="material-symbols-outlined" id="link">link</span>
+                                                <span class="tool_tips1" id="tool_tips_link">Link</span>        
+                                            </div>
+                                                <div class="tools_and_tips">        
+                                                    <span class="material-symbols-outlined" id="format_clear">format_clear</span> 
+                                                    <span class="tool_tips1" id="tool_tips_format_clear">Clear</span>    
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new_div_1 border" id="test_111111">
+                            <div class="q-div">
+                                <div class="new_div_1_2" >
+                                    <div class="third_div_1st_input">
+                                        <div class="cooool3">
+                                            <input type="text" name="hello" class="third_div_1st_input1 second_div_inputs"  placeholder="Question" >
+                                            <span class="border_animation"></span>
+                                        </div>
+                                        <div class="option">
+                                            <div class="tools_and_tips">                
+                                                <span class="material-symbols-outlined" id="format_bold">format_bold</span>
+                                                <span class="tool_tips1" id="tool_tips_format_bold">Bolt</span>
+                                            </div>
+                                            <div class="tools_and_tips">
+                                                <span class="material-symbols-outlined" id="format_italic">format_italic</span>
+                                                <span class="tool_tips1" id="tool_tips_format_italic">Italic</span>            
+                                            </div>        
+                                            <div class="tools_and_tips">     
+                                                <span class="material-symbols-outlined" id="format_underlined">format_underlined</span>
+                                                <span class="tool_tips1" id="tool_tips_format_underlined">Underline</span>      
+                                            </div>
+                                            <div class="tools_and_tips">            
+                                                <span class="material-symbols-outlined" id="link">link</span>
+                                                <span class="tool_tips1" id="tool_tips_link">Link</span>        
+                                            </div>
+                                                <div class="tools_and_tips">        
+                                                    <span class="material-symbols-outlined" id="format_clear">format_clear</span> 
+                                                    <span class="tool_tips1" id="tool_tips_format_clear">Clear</span>    
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="material-symbols-outlined">image</div>
+                                    <div class="dropdown">
+                                        <div class="custom-dropdown">
+                                            <div class="mainDropdown-toggle">
+                                                <div class="dropdown-toggle"> <!-- Default selection -->
+                                                    <div class="material-symbols-outlined">short_text</div>
+                                                    <div>Short Answers</div>
+                                                </div> 
+                                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                                            </div>
+                                            
+                                            <ul class="dropdown-menu">
+                                                <div class="dropdown-menu_1st_section">
+                                                    <li data-value="Short_Answers" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">short_text</div>
+                                                        Short Answers
+                                                    </li>
+                                                    <li data-value="Long_Text" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">subject</div>
+                                                        Long Text
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li data-value="section3" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">radio_button_checked</div>
+                                                        Multiple choice
+                                                    </li>
+                                                    <li data-value="section4" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">check_box</div>
+                                                        Checkboxs
+                                                    </li>
+                                                    <li data-value="section5" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">expand_circle_down</div>
+                                                        Dropdown
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li data-value="section6" class="dropdown_content">
+                                                
+                                                        <div class="material-symbols-outlined">cloud_upload</div>
+                                                        File Upload
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li data-value="section7" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">linear_scale</div>
+                                                        Linear scale
+                                                    </li>
+                                                    <li data-value="section8" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">apps</div>
+                                                        Multiple choise grid
+                                                    </li>
+                                                    <li data-value="section9" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">grid_view</div>
+                                                        Checkbox grid
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li data-value="section10" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">calendar_month</div>
+                                                        Date
+                                                    </li>
+                                                    <li data-value="section11" class="dropdown_content">
+                                                        <div class="material-symbols-outlined">schedule</div>
+                                                        Time
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="question-type">
+                                    <div id="Short_Answers" class="content option_1 active">
+                                        <div class="new_div_1_3 ">
+                                            Short Answers
+                                        </div>
+                                    </div>
+                                    <div id="Long_Text" class="content option_2">
+                                        <div class="new_div_1_4">Long Text</div>
+                                    </div>
+                                    <div id="section3" class="content option_3">
+                                        <div id="section3sub">
+                                            <div class="coustom_multi_choise checkboxTarget3">
+                                            
+                                                <span class="material-symbols-outlined checkboxContent1">radio_button_unchecked</span>
+                                                
+                                                <div class="cooool3 checkboxContent2">
+                                                    <input type="text" name="hello" class="second_div_inputs checkboxContentSub1" value="Option 1">
+                                                    <span class="border_animation"></span>
+                                                </div>
+    
+                                                <span class="material-symbols-outlined">image</span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="addOthers5" id="clicktoOthers3">
+                                            add "Other's"
+                                        </div>
+                                    </div>
+                                    <div id="section4" class="content option_4">
+                                        <div id="section4sub">
+                                            <div class="checkboxContent checkboxTarget2">
+                                                <span class="material-symbols-outlined">check_box_outline_blank</span>
+                                                <div class="cooool3 checkboxContent2">
+                                                    <input type="text" name="hello" class="second_div_inputs checkboxContentSub1" value="Option 1">
+                                                    <span class="border_animation"></span>
+                                                </div>
+                                                <span class="material-symbols-outlined">image</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="addOthers5" id="clicktoOthers2">
+                                            add "Other's"
+                                        </div>
+                                    </div>
+                                    <div id="section5" class="content option_5" >
+                                        <div id="section5sub">
+                                            <div class="checkboxContent checkboxTarget">
+                                                <span class="material-symbols-outlined checkboxContent1">check_box_outline_blank</span>
+                                                <div class="cooool3 checkboxContent2">
+                                                    <input type="text" name="hello" class="second_div_inputs checkboxContentSub1" value="Option 1">
+                                                    <span class="border_animation"></span>
+                                                </div>
+                                                <span class="material-symbols-outlined">image</span>
+                                            </div>
+                                        </div>
+                                        <div class="addOthers5" id="clicktoOthers">
+                                            add "Other's"
+                                        </div>
+                                    </div>
+                                    <div id="section6" class="content option_6" >
+                                        <div >
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="section7" class="content option_7" >
+                                        <div > 
+                                        </div>
+                                    </div>
+                                    <div id="section8" class="content option_8" >
+                                        <div > 
+                                        </div>
+                                    </div>
+                                    <div id="section9" class="content option_9" >
+                                        <div >
+                                            
+                                        </div>
+                                    </div>
+                                    <div id="section10" class="content option_10" >
+                                        <div >
+                                            <input type="date">
+                                        </div>
+                                    </div>
+                                    <div id="section11" class="content option_11" >
+                                        <div >
+                                            <input type="time">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="third_div_bottom" >
+                                    <div></div>
+                                    <div class="third_div_bottom_left">
+                                        <div class="material-symbols-outlined">content_copy</div>
+                                        <div class="material-symbols-outlined" id="delete_button" >delete</div>
+                                        <div></div>
+                                        <div>Required</div>
+                                        <div class="response_div_button">
+                                                <label class="toggle" for="toggle_button1">
+                                                <input type="checkbox" class="toggle__input" id="toggle_button1">
+                                                <div class="toggle_fill"></div>
+                                                </label>
+                                        </div>
+                                        <div class="material-symbols-outlined">more_vert</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="virticalSpace"></div>
+                    <div  id="buttonOnly"class="tracker">
+                        <div class="create_option">
+                            <div> 
+                                <button class="material-symbols-outlined" id="create_option_1">add</button>
+                                <div class="tool_tips_22" id="tool_tips_22_1">Add Question</div>
+                            </div>
+                            <div>
+                                <button class="material-symbols-outlined" id="create_option_2">post_add</button>
+                                <div class="tool_tips_22" id="tool_tips_22_2">Import Question</div>
+                            </div>
+                            <div>
+                                <button class="material-symbols-outlined" id="create_option_3">format_size</button>
+                            </div>
+                            <div>
+                                <button class="material-symbols-outlined" id="create_option_4">panorama</button>
+                            </div>
+                            <div>
+                                <button class="material-symbols-outlined" id="create_option_5">video_library</button>
+                            </div>
+                            <div>
+                                <button class="material-symbols-outlined" id="create_option_6">equal</button>
+                            </div>
+                        </div> 
+                        <!-- <div class="tool_tips_2">
+                            <div class="tool_tips_22" id="tool_tips_22_1">Add Question</div>
+                            <div class="tool_tips_22" id="tool_tips_22_2">Import Question</div>
+                            <div class="tool_tips_22" id="tool_tips_22_3">Add Title and Description</div>
+                            <div class="tool_tips_22" id="tool_tips_22_4">Add Image</div>
+                            <div class="tool_tips_22" id="tool_tips_22_5">Add Video</div>
+                            <div class="tool_tips_22" id="tool_tips_22_6">Add Section</div>
+                        </div> -->
+                    </div>
+                </div>      
+                </div>
+        </div>
+        <div class="subMain2 nevBarToggle">
+            <div class="response_div">
+                <div class="response_div_0">
+                    <div>
+                        <p>0 response </p>
+                    </div>
+                    <div class="response_div_2">
+                        <div><a href="#">View in Sheet</a></div>
+                        <a href="#"><span class="material-symbols-outlined" id="response_div_0_more_vert">more_vert</span></a>
+                    </div>
+                </div>
+                <div class="response_div_3">
+                    <div>
+                        Accepting responses
+                    </div>
+                    <div class="response_div_button">
+                        <label class="toggle" for="toggle_button12">
+                        <input type="checkbox" class="toggle__input" id="toggle_button12">
+                        <div class="toggle_fill"></div>
+                        </label>
+                    </div>
+                </div>
+               
+            </div> <br>
+        </div>
+        <div class="subMain3 nevBarToggle">
+            <div class="first_div">
+                <p>Settings</p>
+                <hr>
+                <div class="first_div_option">
+                    <div class="first_div_option_0">
+                        <div class="Settiong_option">
+                            Make this a quiz
+                        </div>
+                        <div class="Settiong_option">
+                            <label class="toggle" for="toggle_button13">
+                            <input type="checkbox" class="toggle__input" id="toggle_button13">
+                            <div class="toggle_fill"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="Settiong_option_text">Assign point values, set answers, and automatically provide feedback</div>
+                    <div class="breack_line"><hr></div>
+                    <div class="Settiong_option">Responses</div>
+                    <div class="Settiong_option_text">Manage how responses are collected and protected</div>
+                    <div class="breack_line"><hr></div>
+                    <div class="Settiong_option">Presentation</div>
+                    <div class="Settiong_option_text">Manage how the form and responses are presented</div>
+                    <div class="breack_line"><hr></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="dropdown.js"></script>
+    <script src="create.js"></script>
+    <script src="tracker.js"></script>
+    <script src="navbar.js"></script>
+    <script src="responsive.css"></script>
+</body>
+</html>
